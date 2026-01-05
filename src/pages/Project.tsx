@@ -1,0 +1,90 @@
+
+import '../index.css'
+import Brand1 from "../assets/chocolatePics/Brand-Guideline Book-01.jpg"
+import Brand2 from "../assets/chocolatePics/Brand-Guideline Book-02.jpg"
+import Brand3 from "../assets/chocolatePics/Brand-Guideline Book-03.jpg"
+import Brand4 from "../assets/chocolatePics/Brand-Guideline Book-04.jpg"
+import Brand5 from "../assets/chocolatePics/Brand-Guideline Book-05.jpg"
+import Brand6 from "../assets/chocolatePics/Brand-Guideline Book-06.jpg"
+import Moodboard from "../assets/chocolatePics/CacaoDelSolMoodboard.png"
+import LogoBlack from "../assets/chocolatePics/LogoBlack.png"
+import LogoColored from "../assets/chocolatePics/Logo1.png"
+import LogoWhite from "../assets/chocolatePics/WhiteLogo.png"
+import BarMockup from "../assets/chocolatePics/Mockup-Chocolate-Bars.png"
+import BarDieline from "../assets/chocolatePics/Packet-Dieline.png"
+import BarDielineColor from "../assets/chocolatePics/Colored-Chocolate.png"
+import HotMockup1 from "../assets/chocolatePics/Mockup-Packet-1.png"
+import HotMockup2 from "../assets/chocolatePics/Mockup-Packet-2.png"
+import HotDieline from "../assets/chocolatePics/Hot-Packet.png"
+import HotDielineColor from "../assets/chocolatePics/Colored-Hot-Packet.png"
+import SectionCompo from '../components/SectionCompo'
+import ImgHolder from '../components/ImgHolder'
+
+function Project() {
+
+  return (
+    <div className='max-w-[100vw]'>
+      <div className='max-w-370 py-5 flex flex-col gap-5 justify-center'>
+        <h1 className='text-[30px] text-center'>Cacao Del Sol Project </h1>
+
+        <SectionCompo title="Project Debrief">
+          <p className="text-[18px]">This project goes through my process of creating a story, logos, and packaging for a fictional chocolate brand. My chosen name was "Cacao del Sol," with roots in Mexican culture. I created an inspiration board to assist with the initial direction, then refined the company's story and mission statement before creating a logo and packaging that brought all the company deliverables together</p>
+        </SectionCompo>
+
+        <SectionCompo title="Moodboard">
+          <img src={Moodboard} className='h-100 mx-auto' />
+        </SectionCompo>
+
+        <SectionCompo title="Brand Story">
+          <p className="text-[18px]">Cacao del Sol leans deeply into their Mexican culture with fun bright colors, while creating a family-friendly chocolate. They are a family business run on hope, love, and papel picado.</p>
+        </SectionCompo>
+
+        <SectionCompo title="Logos">
+          <ImgHolder>
+            <img src={LogoBlack} className='w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={LogoWhite} className='w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={LogoColored} className='w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
+          </ImgHolder>
+        </SectionCompo>
+
+        <SectionCompo title="Chocolate Bars">
+          <ImgHolder>
+            <img src={BarMockup} className='h-100 mx-auto block border-gray-400 border-solid border-2 rounded-md' />
+          </ImgHolder>
+          <ImgHolder>
+            <img src={BarDielineColor} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={BarDieline} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+          </ImgHolder>
+        </SectionCompo>
+
+        <SectionCompo title="Hot Chocolate Packets">
+          <ImgHolder>
+            <img src={HotMockup1} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={HotMockup2} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+          
+          </ImgHolder>
+          <ImgHolder>
+            <img src={HotDielineColor} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={HotDieline} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+          </ImgHolder>
+        </SectionCompo>
+
+        <SectionCompo title="Brand Guidelines">
+          <ImgHolder>
+            <img src={Brand1} className='h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand2} className='h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand3} className='h-100 border-gray-400 border-solid border-2' />
+          </ImgHolder>
+          <ImgHolder>
+            <img src={Brand4} className='h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand5} className='h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand6} className='h-100 border-gray-400 border-solid border-2' />
+          </ImgHolder>
+        </SectionCompo>
+
+      </div>
+    </div>
+  )
+}
+
+export default Project
