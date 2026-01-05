@@ -4,6 +4,7 @@ import Bethel from '../assets/BethelCOC.png'
 import Flower from '../assets/corina-ardeleanu-sWlxCweDzzs-unsplash.jpg'
 import BarMockup from "../assets/chocolatePics/Mockup-Chocolate-Bars.png"
 import Feather from "../assets/Feather Icon.png"
+import BlackLogo from "../assets/logoPics/ASL-Black-Logo.png"
 
 
 import '../index.css'
@@ -23,18 +24,16 @@ function Home() {
           </div>
           <div className='flex flex-row justify-evenly'>
             <ProjectHolder link="https://www.figma.com/design/xtEUCocdlHYo1dZ03ldvzv/Christian-Writer?node-id=0-1&t=YugQ8wOdRxZec3Wi-1" title="Christian Writer App" imge={Feather} list="Figma" />
-            <ProjectHolder link="https://magic-carousel.netlify.app/" title="Magic Carousel" imge={Flower} list="HTML, CSS, and Javascript" />
-            <ProjectHolder link="/Project" title="Cacao Del Sol Project" imge={BarMockup} list="Adobe Illustrator" />
-          </div>
+            <ProjectHolder link="/Logos" title="Logos" imge={BlackLogo} list="Adobe Illustrator" />
+           </div>
 
 
 
           <SectionCompo title="Design Info">
             <p className="text-[18px]">These logos were designed with Adobe Illustator.</p>
+            <p className="text-[18px]">I have also created mobile apps in React Native and have coded a small guided fullstack project using Express API and Prisma. I also have collaborated in a school project designing a multi-page website with Figma.</p>
+         
           </SectionCompo>
-
-          <p>I have also created mobile apps in React Native and have coded a small guided fullstack project using Express API and Prisma. I also have collaborated in a school project designing a multi-page website with Figma.</p>
-
 
 
         </div>
