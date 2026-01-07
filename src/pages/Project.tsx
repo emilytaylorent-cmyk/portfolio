@@ -17,6 +17,7 @@ import HotMockup1 from "../assets/chocolatePics/Mockup-Packet-1.png"
 import HotMockup2 from "../assets/chocolatePics/Mockup-Packet-2.png"
 import HotDieline from "../assets/chocolatePics/Hot-Packet.png"
 import HotDielineColor from "../assets/chocolatePics/Colored-Hot-Packet.png"
+import Flower from "../assets/Flower.png"
 import SectionCompo from '../components/SectionCompo'
 import ImgHolder from '../components/ImgHolder'
 
@@ -26,15 +27,14 @@ function Project() {
     <div className='max-w-[100vw]'>
       <div className='max-w-370 py-5 flex flex-col gap-5 justify-center'>
         <h1 className='text-[30px] text-center'>Cacao Del Sol Project </h1>
-        <p className="text-[18px] text-center mb-10">This project goes through my process of creating a story, logos, and <br /> packaging for a fictional chocolate brand. My chosen name was <br /> "Cacao del Sol," with roots in Mexican culture.</p>
+        <p className="text-[18px] text-center mb-5">This project goes through my process of creating a story, logos, and <br /> packaging for a fictional chocolate brand. My chosen name was <br /> "Cacao del Sol," with roots in Mexican culture.</p>
 
-
-        <div className='w-[80%] mx-auto flex flex-row justify-between items-center'>
-          <div className='gap-3 flex flex-col w-[42%]'>
+        <div className='w-[80%] mx-auto flex flex-row justify-between items-center '>
+          <div className='gap-3 flex flex-col w-[45%]'>
             <h2 className="text-[24px]">Brand Story</h2>
             <p className="text-[18px]">Cacao del Sol leans deeply into their Mexican culture with fun bright colors, while creating a family-friendly chocolate. They are a family business run on hope, love, and papel picado.</p>
           </div>
-          <img src={Moodboard} className='h-100' />
+          <img src={Moodboard} className='h-90' />
         </div>
 
 
@@ -48,7 +48,10 @@ function Project() {
 
         <SectionCompo title="Chocolate Bars">
           <ImgHolder>
-            <img src={BarMockup} className='h-80 mx-auto block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={BarMockup} className=' w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <div className=' w-[49%] justify-center items-center flex border-gray-400 border-solid border-2 rounded-md '>
+              <img src={Flower}/>
+            </div>
           </ImgHolder>
           <ImgHolder>
             <img src={BarDielineColor} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
