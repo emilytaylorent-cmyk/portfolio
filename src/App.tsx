@@ -9,6 +9,7 @@ import Line1 from './assets/Line1.png'
 import Project from './pages/Project.tsx';
 
 import Websites from './pages/Websites.tsx';
+import Designs from './pages/Designs.tsx';
 
 function App() {
     return (
@@ -20,8 +21,8 @@ function App() {
                     <p>Websites</p>
                 </Link>
                 <img src={Line1} className='h-6' />
-                <Link to="/Project" className=' overwrite hover:bg-[#D2E4E4] no-underline hover:text-black p-2 hover:cursor-pointer px-4'>
-                    <p className='no-underline'>Design Project</p>
+                <Link to="/Designs" className=' overwrite hover:bg-[#D2E4E4] no-underline hover:text-black p-2 hover:cursor-pointer px-4'>
+                    <p className='no-underline'>Designs</p>
                 </Link>
                                 <img src={Line1} className='h-6' />
                 <Link to="/Project" className=' overwrite hover:bg-[#D2E4E4] no-underline hover:text-black p-2 hover:cursor-pointer px-4'>
@@ -33,6 +34,8 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/Project" element={<Project/>} />
                 <Route path="/Websites" element={<Websites/>} />
+                <Route path="/Designs" element={<Designs/>} />
+
             </Routes>
         </BrowserRouter>
     );

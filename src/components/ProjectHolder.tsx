@@ -1,18 +1,15 @@
-import React from 'react'
 
 function ProjectHolder({ link, imge, title, list }) {
     return (
-        <div>
-            <a href={link} className='hover:cursor-pointer hover:shadow-lg'>
-                <div className='bg-gray-300 rounded-md h-40 w-50 hover:shadow-lg' >
-                    <div className='bg-[#619394] rounded-t-md p-1 px-2 text-white'>
-                        <h2 >{title}</h2>
-                    </div>
-                        <img className='rounded-b-md object-cover min-h-[80%] max-h-[80%] min-w-full' src={imge} />
+        <a href={link}>
+            <div className='hover:cursor-pointer hover:shadow-lg flex flex-col gap-2 p-1'>
+                <img src={imge} className="h-40 w-[22vw]" />
+                <div>
+                    <h2 className='text-[18px]' style={{ textDecoration: 'none' }}>{title}</h2>
+                    <p className='text-[16px]' style={{ textDecoration: 'none' }}>Skills: {list}</p>
                 </div>
-            </a>
-            <p>Skills: {list}</p>
-        </div>
+            </div>
+        </a>
     )
 }
 
