@@ -3,7 +3,7 @@ import '../index.css'
 import ProjectHolder from '../components/ProjectHolder'
 import Bethel from '../assets/BethelCOC.png'
 import Flower from '../assets/corina-ardeleanu-sWlxCweDzzs-unsplash.jpg'
-import BarMockup from "../assets/chocolatePics/Mockup-Chocolate-Bars.png"
+import Pig from "../assets/pig.svg"
 
 
 function Websites() {
@@ -16,7 +16,7 @@ function Websites() {
           <div className='flex flex-row justify-evenly'>
             <ProjectHolder link="https://bethelchurchofchrist.net/" title="Bethel Church of Christ" imge={Bethel} list="Wordpress" />
             <ProjectHolder link="https://magic-carousel.netlify.app/" title="Magic Carousel" imge={Flower} list="HTML, CSS, and Javascript" />
-            <ProjectHolder link="/Project" title="Cacao Del Sol Project" imge={BarMockup} list="Adobe Illustrator" />
+            <ProjectHolder link="https://purple-bbq-v2.netlify.app/" title="BBQ Festival Group Project" imge={Pig} list="HTML, CSS, Javascript" />
           </div>
 
         </div>

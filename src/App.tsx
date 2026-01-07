@@ -26,7 +26,7 @@ function App() {
                 </Link>
                                 <img src={Line1} className='h-6' />
                 <Link to="/Project" className=' overwrite hover:bg-[#D2E4E4] no-underline hover:text-black p-2 hover:cursor-pointer px-4'>
-                    <p className='no-underline'>Design Project</p>
+                    <p className='no-underline'>Project</p>
                 </Link>
 
             </div>
