@@ -27,10 +27,12 @@ function Project() {
     <div className='max-w-[100vw]'>
       <div className='max-w-370 py-5 flex flex-col gap-5 justify-center'>
         <h1 className='text-[30px] text-center'>Cacao Del Sol Project </h1>
-        <p className="text-[16px] text-center mb-5">This project goes through my process of creating a story, logos, and <br /> packaging for a fictional chocolate brand. My chosen name was <br /> "Cacao del Sol," with roots in Mexican culture.</p>
-
-        <div className='w-[80%] mx-auto flex flex-row justify-between items-center '>
-          <div className='gap-3 flex flex-col w-[45%]'>
+        <div className='w-[80%] mx-auto'>
+           <p className="text-[16px] md:text-center text-left mb-5 mx-auto max-w-[500px]">This project goes through my process of creating a story, logos, and  packaging for a fictional chocolate brand. My chosen name was  "Cacao del Sol," with roots in Mexican culture.</p>
+        </div>
+       
+        <div className='w-[80%] mx-auto flex md:flex-row flex-col justify-between items-center gap-5 md:gap-0'>
+          <div className='gap-3 flex flex-col md:w-[45%]'>
             <h2 className="text-[24px]">Brand Story</h2>
             <p className="text-[16px]">Cacao del Sol leans deeply into their Mexican culture with fun bright colors, while creating a family-friendly chocolate. They are a family business run on hope, love, and papel picado.</p>
           </div>
@@ -40,47 +42,47 @@ function Project() {
 
         <SectionCompo title="Logos">
           <ImgHolder>
-            <img src={LogoBlack} className='w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
-            <img src={LogoWhite} className='w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
-            <img src={LogoColored} className='w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={LogoBlack} className='md:w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={LogoWhite} className='md:w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={LogoColored} className='md:w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
           </ImgHolder>
         </SectionCompo>
 
         <SectionCompo title="Chocolate Bars">
           <ImgHolder>
-            <img src={BarMockup} className=' w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
-            <div className=' w-[49%] justify-center items-center flex border-gray-400 border-solid border-2 rounded-md '>
+            <img src={BarMockup} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <div className='hidden md:block w-[49%] justify-center items-center flex border-gray-400 border-solid border-2 rounded-md '>
               <img src={Flower}/>
             </div>
           </ImgHolder>
           <ImgHolder>
-            <img src={BarDielineColor} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
-            <img src={BarDieline} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={BarDielineColor} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={BarDieline} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
           </ImgHolder>
         </SectionCompo>
 
         <SectionCompo title="Hot Chocolate Packets">
           <ImgHolder>
-            <img src={HotMockup1} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
-            <img src={HotMockup2} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={HotMockup1} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={HotMockup2} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
 
           </ImgHolder>
           <ImgHolder>
-            <img src={HotDielineColor} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
-            <img src={HotDieline} className='w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={HotDielineColor} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={HotDieline} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
           </ImgHolder>
         </SectionCompo>
 
         <SectionCompo title="Brand Guidelines">
           <ImgHolder>
-            <img src={Brand1} className='h-100 border-gray-400 border-solid border-2' />
-            <img src={Brand2} className='h-100 border-gray-400 border-solid border-2' />
-            <img src={Brand3} className='h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand1} className='md:h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand2} className='md:h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand3} className='md:h-100 border-gray-400 border-solid border-2' />
           </ImgHolder>
           <ImgHolder>
-            <img src={Brand4} className='h-100 border-gray-400 border-solid border-2' />
-            <img src={Brand5} className='h-100 border-gray-400 border-solid border-2' />
-            <img src={Brand6} className='h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand4} className='md:h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand5} className='md:h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand6} className='md:h-100 border-gray-400 border-solid border-2' />
           </ImgHolder>
         </SectionCompo>
 
