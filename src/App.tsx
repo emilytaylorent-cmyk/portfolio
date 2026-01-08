@@ -10,6 +10,7 @@ import Project from './pages/Project.tsx';
 
 import Websites from './pages/Websites.tsx';
 import Designs from './pages/Designs.tsx';
+import Footer from './components/Footer.tsx';
 
 function App() {
     return (
@@ -37,6 +38,7 @@ function App() {
                 <Route path="/Designs" element={<Designs/>} />
 
             </Routes>
+             <Link to="/" className="!no-underline border-none shadow-none" style={{ textDecoration: 'inherit' }}><Footer /></Link>
         </BrowserRouter>
     );
 }
