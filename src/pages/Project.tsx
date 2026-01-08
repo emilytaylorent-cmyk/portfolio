@@ -51,7 +51,7 @@ function Project() {
         <SectionCompo title="Chocolate Bars">
           <ImgHolder>
             <img src={BarMockup} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
-            <div className='hidden md:block w-[49%] justify-center items-center flex border-gray-400 border-solid border-2 rounded-md '>
+            <div className='hidden md:flex w-[49%] justify-center items-center border-gray-400 border-solid border-2 rounded-md '>
               <img src={Flower}/>
             </div>
           </ImgHolder>
