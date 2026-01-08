@@ -14,18 +14,18 @@ import Designs from './pages/Designs.tsx';
 function App() {
     return (
         <BrowserRouter>
-        <Link to="/"><Header /></Link>
+        <Link to="/" className='block no-underline hover:no-underline'><Header /></Link>
             
             <div className='bg-[#619394] gap-3 flex justify-center text-white h-full items-center'>
-                <Link to="/Websites" className='no-underline hover:bg-[#D2E4E4] hover:text-black p-2 hover:cursor-pointer px-4'>
+                <Link to="/Websites" className=' hover:bg-[#D2E4E4] hover:text-black p-2 hover:cursor-pointer px-4'>
                     <p>Websites</p>
                 </Link>
                 <img src={Line1} className='h-6' />
-                <Link to="/Designs" className=' overwrite hover:bg-[#D2E4E4] no-underline hover:text-black p-2 hover:cursor-pointer px-4'>
+                <Link to="/Designs" className=' hover:bg-[#D2E4E4] hover:text-black p-2 hover:cursor-pointer px-4'>
                     <p className='no-underline'>Designs</p>
                 </Link>
                                 <img src={Line1} className='h-6' />
-                <Link to="/Project" className=' overwrite hover:bg-[#D2E4E4] no-underline hover:text-black p-2 hover:cursor-pointer px-4'>
+                <Link to="/Project" className=' hover:bg-[#D2E4E4] hover:text-black p-2 hover:cursor-pointer px-4'>
                     <p className='no-underline'>Project</p>
                 </Link>
 

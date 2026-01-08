@@ -33,7 +33,7 @@ function Home() {
           <div className='flex flex-row justify-between items-center mt-10'>
             <div className='gap-3 flex flex-col w-[45%]'>
               <h2 className="text-[24px]">Other Skills</h2>
-              <p className="text-[18px]">I have created mobile apps in React Native and have coded a small guided Full-stack project using Express API and Prisma.</p>
+              <p className="text-[15px]">I have created mobile apps in React Native and have coded a small guided Full-stack project using Express API and Prisma.</p>
             </div>
             <img src={MobileDesign} className="h-[60vh]" />
           </div>

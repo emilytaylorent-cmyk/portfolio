@@ -27,12 +27,12 @@ function Project() {
     <div className='max-w-[100vw]'>
       <div className='max-w-370 py-5 flex flex-col gap-5 justify-center'>
         <h1 className='text-[30px] text-center'>Cacao Del Sol Project </h1>
-        <p className="text-[18px] text-center mb-5">This project goes through my process of creating a story, logos, and <br /> packaging for a fictional chocolate brand. My chosen name was <br /> "Cacao del Sol," with roots in Mexican culture.</p>
+        <p className="text-[16px] text-center mb-5">This project goes through my process of creating a story, logos, and <br /> packaging for a fictional chocolate brand. My chosen name was <br /> "Cacao del Sol," with roots in Mexican culture.</p>
 
         <div className='w-[80%] mx-auto flex flex-row justify-between items-center '>
           <div className='gap-3 flex flex-col w-[45%]'>
             <h2 className="text-[24px]">Brand Story</h2>
-            <p className="text-[18px]">Cacao del Sol leans deeply into their Mexican culture with fun bright colors, while creating a family-friendly chocolate. They are a family business run on hope, love, and papel picado.</p>
+            <p className="text-[16px]">Cacao del Sol leans deeply into their Mexican culture with fun bright colors, while creating a family-friendly chocolate. They are a family business run on hope, love, and papel picado.</p>
           </div>
           <img src={Moodboard} className='h-90' />
         </div>

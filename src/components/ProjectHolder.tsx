@@ -5,8 +5,8 @@ function ProjectHolder({ link, imge, title, list }) {
             <div className='hover:cursor-pointer hover:shadow-lg flex flex-col gap-2 p-1'>
                 <img src={imge} className="h-40 w-[22vw]" />
                 <div>
-                    <h2 className='text-[18px]' style={{ textDecoration: 'none' }}>{title}</h2>
-                    <p className='text-[16px]' style={{ textDecoration: 'none' }}>Skills: {list}</p>
+                    <h2 className='text-[19px]' style={{ textDecoration: 'none' }}>{title}</h2>
+                    <p className='text-[15px]' style={{ textDecoration: 'none' }}>Skills: {list}</p>
                 </div>
             </div>
         </a>
