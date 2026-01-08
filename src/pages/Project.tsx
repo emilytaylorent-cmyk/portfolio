@@ -42,47 +42,47 @@ function Project() {
 
         <SectionCompo title="Logos">
           <ImgHolder>
-            <img src={LogoBlack} className='md:w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
-            <img src={LogoWhite} className='md:w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
-            <img src={LogoColored} className='md:w-[32%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={LogoBlack} className='md:w-[32%] block border-gray-400 border-solid border-2 rounded-md' alt="Black Logo of Cacao del Sol"/>
+            <img src={LogoWhite} className='md:w-[32%] block border-gray-400 border-solid border-2 rounded-md' alt="White Logo of Cacao del Sol"/>
+            <img src={LogoColored} className='md:w-[32%] block border-gray-400 border-solid border-2 rounded-md' alt="Colored Logo of Cacao del Sol" />
           </ImgHolder>
         </SectionCompo>
 
         <SectionCompo title="Chocolate Bars">
           <ImgHolder>
-            <img src={BarMockup} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={BarMockup} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' alt="The Three Chocolate Bars of Cacao del Sol"/>
             <div className='hidden md:flex w-[49%] justify-center items-center border-gray-400 border-solid border-2 rounded-md '>
-              <img src={Flower}/>
+              <img src={Flower} alt="Placeholder"/>
             </div>
           </ImgHolder>
           <ImgHolder>
-            <img src={BarDielineColor} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
-            <img src={BarDieline} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={BarDielineColor} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' alt="Chocolate Bar Package dieline with color"/>
+            <img src={BarDieline} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' alt="Chocolate Bar Package dieline without color"/>
           </ImgHolder>
         </SectionCompo>
 
         <SectionCompo title="Hot Chocolate Packets">
           <ImgHolder>
-            <img src={HotMockup1} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
-            <img src={HotMockup2} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={HotMockup1} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' alt="Hot Chocolate Packets for Cacao del Sol, almond, dark, and cinnamon"/>
+            <img src={HotMockup2} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' alt="Hot Chocolate Packets for Cacao del Sol, almond, dark, and cinnamon"/>
 
           </ImgHolder>
           <ImgHolder>
-            <img src={HotDielineColor} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
-            <img src={HotDieline} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' />
+            <img src={HotDielineColor} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' alt="Hot Chocolate Package dieline without color"/>
+            <img src={HotDieline} className='md:w-[49%] block border-gray-400 border-solid border-2 rounded-md' alt="Hot Chocolate Package dieline without color"/>
           </ImgHolder>
         </SectionCompo>
 
         <SectionCompo title="Brand Guidelines">
           <ImgHolder>
-            <img src={Brand1} className='md:h-100 border-gray-400 border-solid border-2' />
-            <img src={Brand2} className='md:h-100 border-gray-400 border-solid border-2' />
-            <img src={Brand3} className='md:h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand1} className='md:h-100 border-gray-400 border-solid border-2' alt="Color Guidelines - Cacao dek Sol is a family brand proud of their MExican Heritage. The brand uses bright colors pulled form a line of papel picado. Bigger text is seperated Script MT Bold, Smaller (English) text is in the Consolas font."/>
+            <img src={Brand2} className='md:h-100 border-gray-400 border-solid border-2' alt="Illustations - Illustations use one of the previous colors as a background. The three stars are essential to any illustation for heritage and cohesiveness."/>
+            <img src={Brand3} className='md:h-100 border-gray-400 border-solid border-2' alt="Illustations - Illustrations consist of shapes. Minimal lines may be included for recognition. Include heart-shaped cutouts if possible, but is not essential. In conclusion, try to simplify as much as possible. Don't sacrifice recognizability for cohesive papel picado illustations. Never put it on a dull or intensely saturated color. You can't go wrong with a simple flavor!"/>
           </ImgHolder>
           <ImgHolder>
-            <img src={Brand4} className='md:h-100 border-gray-400 border-solid border-2' />
-            <img src={Brand5} className='md:h-100 border-gray-400 border-solid border-2' />
-            <img src={Brand6} className='md:h-100 border-gray-400 border-solid border-2' />
+            <img src={Brand4} className='md:h-100 border-gray-400 border-solid border-2' alt="Logos - The Logo for Cacao del Sol is inspired by papel picado, so always use at the top of a product for it to hang. DOn't distory the logo in any way. The black logo will generally be used, unless the white logo is necessary for color-contrast or readability. The Cacao del Sol needs to be in the center of the logo, do not move it to the side or straighten it."/>
+            <img src={Brand5} className='md:h-100 border-gray-400 border-solid border-2' alt="Logos - Ensure that none of the papel picado is cut off as well. The logo can be used without its background if there is not enough room. It can also be used where a logo would not be appropriate." />
+            <img src={Brand6} className='md:h-100 border-gray-400 border-solid border-2' alt="Logos- Don't add width to the stroke of the sun. Don't put a curl in the sun. Make sure there is a c length between anything and logo. Ensure color contrast and pick colors that are cohesive (don't pick just any bright color). Don't put on  a busy background, since we're Mexican, not crazy. Respect Mexican traditions with our chocolate brand. Do not use on anything offensive."/>
           </ImgHolder>
         </SectionCompo>
 
