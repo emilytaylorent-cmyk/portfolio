@@ -1,7 +1,7 @@
 
 function ProjectHolder({ link, imge, title, list }) {
     return (
-        <a href={link}>
+        <a href={link} className="border-none">
             <div className='hover:cursor-pointer hover:shadow-lg flex flex-col gap-2 p-1'>
                 <img src={imge} className="h-40 w-[22vw]" />
                 <div>

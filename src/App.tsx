@@ -14,7 +14,7 @@ import Designs from './pages/Designs.tsx';
 function App() {
     return (
         <BrowserRouter>
-        <Link to="/" className='block no-underline hover:no-underline'><Header /></Link>
+        <Link to="/" className="!no-underline border-none shadow-none" style={{ textDecoration: 'inherit' }}><Header /></Link>
             
             <div className='bg-[#619394] gap-3 flex justify-center text-white h-full items-center'>
                 <Link to="/Websites" className=' hover:bg-[#D2E4E4] hover:text-black p-2 hover:cursor-pointer px-4'>
