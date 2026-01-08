@@ -35,7 +35,7 @@ function Home() {
               <h2 className="text-[24px]">Other Skills</h2>
               <p className="text-[15px]">I have created mobile apps in React Native and have coded a small guided Full-stack project using Express API and Prisma.</p>
             </div>
-            <img src={MobileDesign} className="h-[60vh]" />
+            <img src={MobileDesign} className="md:h-[60vh]" />
           </div>
 
         </div>
