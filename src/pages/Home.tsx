@@ -10,7 +10,6 @@ import BBQSandwich from "../assets/bbq-sandwich-1.jpg"
 import '../index.css'
 
 import MobileDesign from "../assets/Frame 2.png"
-import Project from './Project'
 
 
 
@@ -24,7 +23,7 @@ function Home() {
           <div className='flex md:flex-row flex-col justify-between'>
             <ProjectHolder link="https://bethelchurchofchrist.net/" title="Bethel Church of Christ" imge={Bethel} list="Wordpress" />
             <ProjectHolder link="https://magic-carousel.netlify.app/" title="Magic Carousel" imge={Flower} list="HTML, CSS, and Javascript" />
-            <ProjectHolder link={Project} title="Cacao Del Sol Project" imge={BarMockup} list="Adobe Illustrator" />
+            <ProjectHolder link="/Project" title="Cacao Del Sol Project" imge={BarMockup} list="Adobe Illustrator" />
           </div>
 
           <div className='flex md:flex-row flex-col justify-between'>
