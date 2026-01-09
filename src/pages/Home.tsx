@@ -10,6 +10,7 @@ import BBQSandwich from "../assets/bbq-sandwich-1.jpg"
 import '../index.css'
 
 import MobileDesign from "../assets/Frame 2.png"
+import { Link } from 'react-router-dom'
 
 
 
@@ -23,7 +24,15 @@ function Home() {
           <div className='flex md:flex-row flex-col justify-between'>
             <ProjectHolder link="https://bethelchurchofchrist.net/" title="Bethel Church of Christ" imge={Bethel} list="Wordpress" />
             <ProjectHolder link="https://magic-carousel.netlify.app/" title="Magic Carousel" imge={Flower} list="HTML, CSS, and Javascript" />
-            <ProjectHolder link="/Project" title="Cacao Del Sol Project" imge={BarMockup} list="Adobe Illustrator" />
+            <Link to="/Project" className="border-none">
+              <div className='hover:cursor-pointer hover:shadow-lg flex flex-col gap-2 p-1'>
+                <img src={BarMockup} className="lg:h-40 lg:w-[22vw] md:w-[30vw]" />
+                <div>
+                  <h2 className='text-[19px]' style={{ textDecoration: 'none' }}>Cacao Del Sol Project</h2>
+                  <p className='text-[15px]' style={{ textDecoration: 'none' }}>Skills: Adobe Illustrator</p>
+                </div>
+              </div>
+            </Link>
           </div>
 
           <div className='flex md:flex-row flex-col justify-between'>
